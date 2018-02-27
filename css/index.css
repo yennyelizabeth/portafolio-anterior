@@ -1,10 +1,16 @@
-
 /* Menú */
 .navbar-options{
   padding-top: 20px;
 }
 
-/* Gradiente */
+/*  */
+.navbar-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  
+
+/* Gradiente body y secciones */
 .gradient {
   -webkit-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   -ms-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
@@ -12,12 +18,32 @@
   -o-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95)); }
 
+.back-white {
+  background-color: #fff;
+}
+
+#section0 , #section1 , #section2 , #section3 , #section4 {
+  padding-top:50px;
+  height:670px;
+}
+
+
+/* backgrounds de secciones 
+#section0 {padding-top:50px;height:600px;color: #fff; background-color: rgba(214, 221, 228, 0.795);}
+#section1 {padding-top:50px;height:600px;color: #fff; background-color: rgba(176, 181, 185, 0.795);}
+#section2 {padding-top:50px;height:425px;color: #fff; background-color:  rgba(176, 181, 185, 0.795);}
+#section3 {padding-top:50px;height:525px;color: #fff; background-color:  rgba(176, 181, 185, 0.795);}
+#section4 {padding-top:50px;height:525px;color: #fff; background-color:  rgba(176, 181, 185, 0.795);}
+
+
+
+
 /* Bloque Izquierdo */
 #leftSide {
   position: relative;
   top: 0;
   left: 0;
-  width: 50%;
+  width: 100%;
   height: 100vh;
   overflow: hidden; }
 
@@ -44,9 +70,3 @@
   padding: 10px 10%;
   color: #fff; }
 
-  /*  */
-  .navbar-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
