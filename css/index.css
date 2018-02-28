@@ -13,7 +13,11 @@
 .text-white {
   color:white;
 }
-
+* {
+  margin:0;
+  padding:0;
+  text-align: center;
+}
 
 
 /* Gradiente body y secciones */
@@ -31,7 +35,7 @@
 #section0 , #section1 , #section2 , #section3 , #section4 {
   padding-top:50px;
   height:670px;
-}
+} 
 
 
 /* backgrounds de secciones 
@@ -76,3 +80,25 @@
   padding: 10px 10%;
   color: #fff; }
 
+#section0 {
+  /*
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  top: 50% important! ;*/
+  
+}
+
+.title-1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+.my-photo {
+ padding-top: 8%;
+}
+
+.resum p {
+  text-align: justify;
+}
