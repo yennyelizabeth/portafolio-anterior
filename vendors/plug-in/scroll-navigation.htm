@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8"> 
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="Daniel" />
+
+	<title>Demo jQuery Scroll Nav</title>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+    <script src="jquery.smooth-scroll.min.js"></script>
+    <script src="waypoints.min.js"></script>
+    
+    <script type="text/javascript">    
+    $(function(){
+        $('a.smoothScroll').smoothScroll({
+          offset: -80,		  
+		  scrollTarget: $(this).val()
+	   });
+       
+       // Waypoints
+       $('.post_article').waypoint(  
+        function(direction) {
+        if (direction ==='down') {            
+            var wayID = $(this).attr('id');            
+        } else {
+            var previous = $(this).prev();
+            var wayID = $(previous).attr('id');                    
+        }
+            $('.current').removeClass('current');
+            $('#main_nav a[href=#'+wayID+']').addClass('current');
+        }, { offset: '40%' });
+       
+       
+       
+       /// StickNav  
+       var stickyNavTop = $('.nav').offset().top;  
+  
+        var stickyNav = function(){  
+        var scrollTop = $(window).scrollTop();  
+       
+        if (scrollTop > stickyNavTop) {   
+            $('.nav').addClass('isStuck');  
+        } else {  
+            $('.nav').removeClass('isStuck');   
+        }  
+    };       
+    stickyNav(); 
+       $(window).scroll(function() {
+            stickyNav();  
+        });  
+    });
+    
+
+    </script>
+    
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        .container {
+            width: 300px;
+            margin: auto;
+        }
+        header#head {            
+            padding: 60px 20px;
+            background-color: #1797d7;
+        }
+        nav#topnav {
+            padding: 10px 10px;
+            background-color: #0583c7;
+        }
+            nav#topnav ul {
+                list-style: none;
+            }
+            nav#topnav ul li{
+                display: inline-block;
+            }
+            nav#topnav ul li a{
+                color:#FFF;
+                padding: 5px 7px;
+                display: block;
+                text-decoration: none;
+            }            
+        .isStuck {
+            width: 100%;
+            position: fixed;
+            top:0px;
+        }
+        a.current {
+            background-color: #222;            
+        }
+    </style>
+</head>
+
+<body>
+<header id="head">
+    <div class="container">
+        <h1>Navegación con Scroll jQuery</h1>
+    </div>
+</header>
+<nav id="topnav" class="nav">
+    <div class="container">
+    <ul id="main_nav"> 
+        <li><a class="smoothScroll" href="#inicio">Inicio</a></li>
+        <li><a class="smoothScroll" href="#nosotros">Nosotros</a></li>
+        <li><a class="smoothScroll" href="#servicios">Servicios</a></li>
+        <li><a class="smoothScroll" href="#contacto">Contacto</a></li>
+    </ul>
+    </div>
+</nav>
+
+<section id="main">
+    <div class="container">
+        <article id="inicio" class="post_article">
+            <h2>Lorem ipsum dolor sit amet</h2>
+            <p>
+             Pellentesque nec arcu et enim mattis vestibulum ut at libero. Sed sagittis lacus nulla, non porttitor magna commodo id. Sed sem sem, vestibulum ut ullamcorper at, egestas nec tortor. Donec sodales id nunc sed facilisis. Nullam elementum tempor neque sit amet suscipit. Praesent placerat, lacus a sagittis ornare, odio leo varius nisi, nec posuere nisl felis posuere eros. Morbi imperdiet rhoncus ante, a aliquam urna dictum elementum. Aenean sed sollicitudin augue, vitae cursus sapien. Etiam ac augue viverra, placerat quam eu, tincidunt est. Suspendisse nisl ante, eleifend nec rutrum in, consequat sed ipsum. Quisque nec nulla dui. Morbi sit amet leo adipiscing nibh vulputate sodales. Donec volutpat felis a quam sodales suscipit.</p>
+
+            <p></p>Curabitur nibh metus, vehicula ac tortor quis, lobortis posuere diam. Sed imperdiet ut magna eget adipiscing. Etiam interdum sodales urna, id feugiat lacus tristique eu. Etiam sollicitudin tempor felis a varius. Aenean feugiat tellus turpis, a sodales velit consequat sit amet. Donec urna ante, laoreet non lectus at, sodales dignissim mauris. Curabitur dui elit, ullamcorper at lobortis sit amet, gravida sed risus. Cras lacinia blandit sapien a ultricies. Fusce felis risus, euismod euismod rhoncus elementum, commodo at eros. Cras quis metus faucibus nulla lobortis fringilla. Integer tempor tortor sed nunc eleifend, tristique vestibulum turpis ultrices. </p>
+        </article>
+        
+        <article id="nosotros" class="post_article">
+            <h2>Nosotros</h2>
+            <p>
+             Pellentesque nec arcu et enim mattis vestibulum ut at libero. Sed sagittis lacus nulla, non porttitor magna commodo id. Sed sem sem, vestibulum ut ullamcorper at, egestas nec tortor. Donec sodales id nunc sed facilisis. Nullam elementum tempor neque sit amet suscipit. Praesent placerat, lacus a sagittis ornare, odio leo varius nisi, nec posuere nisl felis posuere eros. Morbi imperdiet rhoncus ante, a aliquam urna dictum elementum. Aenean sed sollicitudin augue, vitae cursus sapien. Etiam ac augue viverra, placerat quam eu, tincidunt est. Suspendisse nisl ante, eleifend nec rutrum in, consequat sed ipsum. Quisque nec nulla dui. Morbi sit amet leo adipiscing nibh vulputate sodales. Donec volutpat felis a quam sodales suscipit.</p>
+
+            <p></p>Curabitur nibh metus, vehicula ac tortor quis, lobortis posuere diam. Sed imperdiet ut magna eget adipiscing. Etiam interdum sodales urna, id feugiat lacus tristique eu. Etiam sollicitudin tempor felis a varius. Aenean feugiat tellus turpis, a sodales velit consequat sit amet. Donec urna ante, laoreet non lectus at, sodales dignissim mauris. Curabitur dui elit, ullamcorper at lobortis sit amet, gravida sed risus. Cras lacinia blandit sapien a ultricies. Fusce felis risus, euismod euismod rhoncus elementum, commodo at eros. Cras quis metus faucibus nulla lobortis fringilla. Integer tempor tortor sed nunc eleifend, tristique vestibulum turpis ultrices. </p>
+        </article>
+        
+        <article id="servicios" class="post_article">
+            <h2>Servicios</h2>
+            <p>
+             Pellentesque nec arcu et enim mattis vestibulum ut at libero. Sed sagittis lacus nulla, non porttitor magna commodo id. Sed sem sem, vestibulum ut ullamcorper at, egestas nec tortor. Donec sodales id nunc sed facilisis. Nullam elementum tempor neque sit amet suscipit. Praesent placerat, lacus a sagittis ornare, odio leo varius nisi, nec posuere nisl felis posuere eros. Morbi imperdiet rhoncus ante, a aliquam urna dictum elementum. Aenean sed sollicitudin augue, vitae cursus sapien. Etiam ac augue viverra, placerat quam eu, tincidunt est. Suspendisse nisl ante, eleifend nec rutrum in, consequat sed ipsum. Quisque nec nulla dui. Morbi sit amet leo adipiscing nibh vulputate sodales. Donec volutpat felis a quam sodales suscipit.</p>
+
+            <p></p>Curabitur nibh metus, vehicula ac tortor quis, lobortis posuere diam. Sed imperdiet ut magna eget adipiscing. Etiam interdum sodales urna, id feugiat lacus tristique eu. Etiam sollicitudin tempor felis a varius. Aenean feugiat tellus turpis, a sodales velit consequat sit amet. Donec urna ante, laoreet non lectus at, sodales dignissim mauris. Curabitur dui elit, ullamcorper at lobortis sit amet, gravida sed risus. Cras lacinia blandit sapien a ultricies. Fusce felis risus, euismod euismod rhoncus elementum, commodo at eros. Cras quis metus faucibus nulla lobortis fringilla. Integer tempor tortor sed nunc eleifend, tristique vestibulum turpis ultrices. </p>
+        </article>
+        
+        <article id="contacto" class="post_article">
+            <h2>Contacto</h2>
+            <p>
+             Pellentesque nec arcu et enim mattis vestibulum ut at libero. Sed sagittis lacus nulla, non porttitor magna commodo id. Sed sem sem, vestibulum ut ullamcorper at, egestas nec tortor. Donec sodales id nunc sed facilisis. Nullam elementum tempor neque sit amet suscipit. Praesent placerat, lacus a sagittis ornare, odio leo varius nisi, nec posuere nisl felis posuere eros. Morbi imperdiet rhoncus ante, a aliquam urna dictum elementum. Aenean sed sollicitudin augue, vitae cursus sapien. Etiam ac augue viverra, placerat quam eu, tincidunt est. Suspendisse nisl ante, eleifend nec rutrum in, consequat sed ipsum. Quisque nec nulla dui. Morbi sit amet leo adipiscing nibh vulputate sodales. Donec volutpat felis a quam sodales suscipit.</p>
+
+            <p></p>Curabitur nibh metus, vehicula ac tortor quis, lobortis posuere diam. Sed imperdiet ut magna eget adipiscing. Etiam interdum sodales urna, id feugiat lacus tristique eu. Etiam sollicitudin tempor felis a varius. Aenean feugiat tellus turpis, a sodales velit consequat sit amet. Donec urna ante, laoreet non lectus at, sodales dignissim mauris. Curabitur dui elit, ullamcorper at lobortis sit amet, gravida sed risus. Cras lacinia blandit sapien a ultricies. Fusce felis risus, euismod euismod rhoncus elementum, commodo at eros. Cras quis metus faucibus nulla lobortis fringilla. Integer tempor tortor sed nunc eleifend, tristique vestibulum turpis ultrices. </p>
+        </article>
+    </div><!--container-->
+</section>
+
+</body>
+</html>

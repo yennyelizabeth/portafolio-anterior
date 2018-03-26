@@ -1,0 +1,76 @@
+  /* Plug-in - estilo */
+  * {
+      padding: 0px;
+      margin: 0px;
+    }
+  
+  .container {
+    /*width: 300px;*/
+    margin: auto;
+    }
+
+  #presentation {
+    width: 100%;
+    padding-top: 250px;
+    padding-bottom: 250px;      
+  }
+
+  #resum, #nosotros , #servicios , #contacto {
+    padding-top: 40px;
+    text-align: justify;
+  }
+
+  /* Sección Inicio */
+    .initial-section {  
+    text-align: center;
+    }
+
+header#head {            
+  padding: 60px 20px;
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-color: #1797d7;
+}
+
+nav#topnav {
+  padding: 10px 10px;
+  background-color: #0583c7;
+}
+
+nav#topnav ul {
+  list-style: none;
+}
+
+nav#topnav ul li{
+  display: inline-block;
+}
+
+nav#topnav ul li a{
+  color:#FFF;
+  padding: 5px 7px;
+  display: block;
+  text-decoration: none;
+}     
+
+.isStuck {
+  width: 100%;
+  position: fixed;
+  top:0px;
+}
+
+a.current {
+  background-color: #222;            
+}
+
+
+@media (max-width: 375px){
+  h1 {font-size: 3rem;}
+  }
+
+@media (max-width: 425px){
+  h1 {font-size: 5rem;}
+}
+
+@media (min-width:768px){
+  h1 {font-size: 8rem;}
+}

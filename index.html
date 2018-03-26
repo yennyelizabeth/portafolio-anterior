@@ -17,333 +17,127 @@
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Kanit|Montserrat|Raleway|Roboto" rel="stylesheet">
   <!-- ////////-Enlace Bootstrap - Estilos -->
   <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="vendors/animsition.min.css">
+  
   <!-- ////////-Enlace - Elaboración Propia - Estilos -->
+  
+  <!--
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/index.css">
+  -->
+  <script src="vendors/plug-in/jquery.smooth-scroll.min.js"></script>
+ 
+
+  <link rel="stylesheet" href="vendors/plug-in/plug-css.css">
+
+
+
   <!-- ////////-Scrollbar Custom CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
   <title> YE</title>
 </head>
 <body >  
-  <!-- ____________MENU PRINCIPAL____________ -->
-  <div class="relative" data-spy="scroll" data-target=".navbar" data-offset="50"> 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#section0">YENNY QUIÑONES</a>
-        </div>
-        <div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-options">
-              <li><a href="#section1">ACERCA DE MÍ</a></li>
-              <li><a href="#section2">HABILIDADES</a></li>
-              <li><a href="#section3">PORTAFOLIO</a></li>
-              <li><a href="#section4">CONTACTO</a></li>
-            </ul>
-          </div>
+
+
+
+<div class="relative" data-spy="scroll" data-target=".navbar" data-offset="50"></div>
+  <nav id="topnav " class="nav navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul id="main_nav" class="nav navbar-nav navbar-options">
+            <li><a class="smoothScroll" href="#presentation">Presentación</a></li>
+            <li><a class="smoothScroll" href="#resum">Resumen</a></li>
+            <li><a class="smoothScroll" href="#works">Proyectos</a></li>
+            <li><a class="smoothScroll" href="#contact">Contácto</a></li>
+            <li><a class="smoothScroll" href="#contacto">Contacto</a></li>
+          </ul>
         </div>
       </div>
-    </nav>
-  </div>
-  <!-- ___________ Fin MENU PRINCIPAL__________ -->
-  <section class="">
-    <div id="leftSide">
-      <div id="home" class="gradient">        
-        <!-- ___________ 1.-Presentación ____________ -->
-        <div id="section0" class="container-flex gradient">
-          <div>
-            <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
-            <h1 class="title-1 text-white"> YENNY ELIZABETH QUIÑONES JAUREGUI</h1>
-          </div>         
-        </div>
-        <!-- ___________ 2.-Acerca de mí ____________ -->
-        <div id="section1" class="container-flex back-white">  
-          <h3 class = "letter-general" >   ACERCA DE MI </h2>         
-          <div id="home" class="tab-pane fade in active">
-            <div class ="row my-photo">
-              <div class= "col-xs-10  col-sm-4 col-md-4">
-                <img class="img-circle" src="assets/images/foto.jpg" alt="">
-              </div>    
-              <div class="col-xs-10  col-sm-4 col-md-6 resum">
-                <h3>Yenny Elizabeth Quiñones Jauregui</h3>
-                <p>Soy bachiller en ingeniería de sistemas e informática. Actual Estudiante de Laboratoria en 
-                  la especialización de Diseñador de Experiencia de Usuario. Con conocimientos de back-end, 
-                  front-end, research, procesos, calidad, proyectos, planificación estratégica e inteligencia
-                  de negocios. Experiencia en atención al cliente, contacto con usuarios internos y elaboración
-                  de prototipos. Quiero crear productos digitales de alto impacto en experiencia de usuario, 
-                  para toda empresa indistintamente de su rubro.
-                </p>
-              </div>  
-            </div>
-          </div>   
-        </div>
-        <!-- ___________ 3.-Habilidades ____________ -->
-        <div id="section2" class="container-flex gradient">
-          <h2 class = "letter-general" >   HABILIDADES </h2>         
-          <div class="container">
-            <div class="row">
-              <!-- __Grupo Habilidades Nro 1__ -->
-              <div class="col-md-3">
-                <div class="thumbnail">
-                  <div class="caption"> 
-                    <p><strong>BLANDAS</strong>  <p>
-                  </div>
-                  <div class = "row">
-                    <div class = "col-md-4 col-xs-4">
-                      <img class = "img-responsive img-portafolio" src="assets/images/laboratoria1.jpg" alt="Fjords">
-                    </div>   
-                    <div class = "col-md-4 col-xs-4">
-                      <p class = "black-letter"> </p>
-                    </div>   
-                  </div>
-                </div>
+    </div>
+  </nav>
+</div>
+
+<section id="main">
+    <div class="container-flex">
+
+        <article id="presentation" class="post_article">
+          <div class="container initial-section">
+            <h1 class ="letter-initial">Yenny Quiñones</h1>
+            <h3>UX DESIGNER</h3>
+          </div>
+        </article>
+
+        <article id="resum" class="post_article">
+          <h2>ACERCA DE MI</h2>
+          <div id="section1" class="container back-white">  
+
+            <div id="home" class="tab-pane fade in active">
+              <div class ="row my-photo">
+                <div class= "col-xs-10  col-sm-4 col-md-4">
+                  <img class="img-circle img-responsive" src="assets/images/foto.jpg" alt="">
+                </div>    
+                <div class="col-xs-10  col-sm-4 col-md-6 resum">
+                  <h3>Yenny Elizabeth Quiñones Jauregui</h3>
+                  <p>Soy bachiller en ingeniería de sistemas e informática. Actual Estudiante de Laboratoria en 
+                    la especialización de Diseñador de Experiencia de Usuario. Con conocimientos de back-end, 
+                    front-end, research, procesos, calidad, proyectos, planificación estratégica e inteligencia
+                    de negocios. Experiencia en atención al cliente, contacto con usuarios internos y elaboración
+                    de prototipos. Quiero crear productos digitales de alto impacto en experiencia de usuario, 
+                    para toda empresa indistintamente de su rubro.
+                  </p>
+                </div>  
               </div>
-                <!-- __Grupo Habilidades Nro 2__ -->
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <div class="caption"> 
-                      <p><strong>UX-DESIGNER</strong>  </p>
-                    </div>
-                    <div class = "krow">
-                      <div class = "kcol-md-12 kcol-xs-12">
-                        <!--<img class = "img-responsive img-portafolio" src="assets/images/laboratoria1.jpg" alt="Fjords">-->
-                        <div class="row">
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/research.jpg" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/skech-2.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/figma.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/marvel.png" alt="Fjords">
-                          </div>
-                        </div>
-
-                      </div>   
-                      <div class = "col-md-4 col-xs-4">
-                        <p class = "black-letter"> </p>
-                      </div>   
-                    </div>
-                  </div>
-                </div>
-                <!-- __Grupo Habilidades Nro 3__ -->
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <div class="caption"> 
-                      <p><strong>FRONT-END</strong>  </p>
-                    </div>
-                    <div class = "krow">
-                      <div class = "kcol-kmd-6 kcol-xs-6">
-                        <!--<img class = "img-responsive img-portafolio" src="assets/images/laboratoria1.jpg" alt="Fjords">-->
-                        <div class="row">
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                            <img class = "img-circle img-responsive img-portafolio" src="assets/images/html-logo.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/css-logo.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/jquery-logo.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/boostrap-logo.jpg" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/js-logo.png" alt="Fjords">
-                          </div>
-                          <div class = "col-md-4 col-xs-3 col-lg-4">
-                              <img class = "img-circle img-responsive img-portafolio" src="assets/images/firebase.png" alt="Fjords">
-                          </div>  
-                        </div>  
-                      </div> 
-                    </div>
-                  </div>
-                </div>
-                 <!-- __Grupo Habilidades Nro 4__ -->
-                <div class="col-md-3">
-                  <div class="thumbnail">
-                    <div class="caption"> 
-                      <p><strong>BACK-END</strong>  </p>
-                    </div>
-                    <div class = "row">
-                        <div class = "col-md-4 col-xs-3 col-lg-4">
-                            <img class = " img-responsive img-portafolio" src="assets/images/sql.jpg" alt="Fjords">
-                        </div> 
-                      <div class = "col-md-6 col-xs-6">
-                        <p class = "black-letter"> </p>
-                      </div>   
-                    </div>
-                  </div>
-                </div>
-              </div>             
-            </div>             
-
-        </div>
-        <!-- ___________ 4.-Portafolio ____________ -->
-        <div id="section3" class="container-flex back-white">
-          <section class="recent-works text-center" id="two">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <h3 class="title">Recent <span class="themecolor">Works</span></h3>
-                  <p class="a-slog"> Te presento tres de mis trabajos</p>
-                </div> 
-              </div>                  
-              <div class="gap"></div>        
-              <div class="row">
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/movie-without-conflict.png" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                      <a href="assets/images/movie-without-conflict.png" class="show-image">
-                        <span></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work-desc">
-                    <h3><a href="#">Mockup Design</a></h3>
-                    <span>Photoshop</span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-        
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/obchod.png" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                     <!-- <a href="assets/images/obchod." class="show-image"> -->
-                        <a href="https://github.com/yennyelizabeth/red-social" class="show-image"></a>
-                        <span></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work-desc">
-                    <h5 class="col-md-6"><a href="#"> Movie Without Conflict</a></h3>
-                    <span class="col-md-6"> <button class="btn btn-default"> ver más</button>  </span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-      
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/y.jpg" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                      <a href="assets/images/y.jpg" class="show-image">
-                        <span></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work-desc">
-                    <h3><a href="#">Web Design</a></h3>
-                    <span>Html / Css</span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-              </div> <!-- /row -->
-        
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <a href="#" class="btn btn-custom theme_background_color">Load More</a>
-                </div>
-              </div> <!-- /row -->
-
-
-              <div class="row">
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/movie-without-conflict.png" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                      <a href="assets/images/movie-without-conflict.png" class="show-image">
-                        <span></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work-desc">
-                    <h3><a href="#">Mockup Design</a></h3>
-                    <span>Photoshop</span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-        
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/obchod.png" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                     <!-- <a href="assets/images/obchod." class="show-image"> -->
-                        <a href="https://github.com/yennyelizabeth/red-social" class="show-image"></a>
-                        <span></span>
-                      </a>
-                    </div>jjj
-                  </div>
-                  <div class="work-desc">
-                    <h3><a href="#">Graphic Design</a></h3>
-                    <span>Illustrator</span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-      
-                <div class="col-sm-4 port-item margin-bottom">
-                  <div class="item-img-wrap">
-                    <img src="assets/images/y.jpg" class="img-responsive" alt="workimg">
-                    <div class="item-img-overlay">
-                      <a href="assets/images/y.jpg" class="show-image">
-                        <span></span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="work-desc">
-                    <h3><a href="#">Web Design</a></h3>
-                    <span>Html / Css</span>
-                  </div>
-                </div> <!-- /portfolio-item -->
-              </div> <!-- /row -->
-        
-              <div class="row">
-                <div class="col-md-12 text-center">
-                  <a href="#" class="btn btn-custom theme_background_color">Load More</a>
-                </div>
-              </div> <!-- /row -->
-      
-            </div> <!-- /container -->
-          </section>
-        <!-- / Portfolio -->           
-      <!-- [/OUR-RECENT WORKS] -->
-    </div>
-
-        <!-- ___________ 5.-Contacto ____________ -->
-        <div id="section4" class="container-flex gradient">
-
-        </div>
-
-
-        <!-- Imágen -->
-        <img src="" alt="" class="" />
-
-        <div class="h-content">
-          <div class="heading text-white">
-            <h1></h1>
-            <p></p>
+            </div>   
           </div>
-        </div>   
-            
-      </div>
-    </div>
-  </section>  
-  
+        </article>
+        
+        <article id="works" class="post_article">
+            <h2>Nosotros</h2>
+        </article>
+        
+        <article id="servicios" class="post_article">
+            <h2>Servicios</h2>
+        </article>
+        
+        <article id="contacto" class="post_article">
+            <h2>Contacto</h2>
+        </article>
+    </div><!--container-->
+</section>
+
   <!-- ////////-jQuery CDN -->
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+
+
   <!-- ////////-Enlace Jquery Vs 3.3.1 -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <script src="vendors/plug-in/jquery.smooth-scroll.min.js"></script>
+
+
+  <!-- ////////-Enlace Jquery Vs 1.11.0 -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+
   <!-- <script src="vendors/js/jquery-3.2.1.min.js"></script>-->
   <!-- ///////-Enlace Bootstrap - Funcionalidad en Javascript Vs 3.3.7 -->
   <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
   <!-- ///////-Custom Scroller Js CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
   <!-- ///////-Funcionalidad en Javascript -->
+  <!--
   <script src="js/app.js"></script>
+  -->
+
+  <script src="vendors/plug-in/waypoints.min.js"></script>
+  <script src="vendors/plug-in/plug-js.js"></script>
 </body>
 </html>
