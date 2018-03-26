@@ -12,13 +12,19 @@
   #presentation {
     width: 100%;
     padding-top: 250px;
-    padding-bottom: 250px;      
+    padding-bottom: 200px;      
   }
 
-  #resum, #nosotros , #servicios , #contacto {
-    padding-top: 40px;
+  #resum, #works , #contact , #contacto {
+    padding-top: 100px;
+    padding-bottom: 80px;
     text-align: justify;
   }
+
+
+.text-align-center {
+  text-align: center;
+}
 
   /* Sección Inicio */
     .initial-section {  
