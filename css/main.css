@@ -3,4 +3,98 @@
     left: 50%;
     transform: translatex(-50%);
 }
+
+
+
+
+.btn-sample { 
+    color: #ffffff; 
+    background-color: #010003; 
+    border-color: rgb(2, 2, 2); 
+  } 
+   
+  .btn-sample:hover, 
+  .btn-sample:focus, 
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    color: #010003; 
+    background-color:  #ffffff;
+  } 
+
+
+  .btn-sample:active, 
+  .btn-sample.active, 
+  .open .dropdown-toggle.btn-sample { 
+    background-image: none; 
+  } 
+   
+  .btn-sample.disabled, 
+  .btn-sample[disabled], 
+  fieldset[disabled] .btn-sample, 
+  .btn-sample.disabled:hover, 
+  .btn-sample[disabled]:hover, 
+  fieldset[disabled] .btn-sample:hover, 
+  .btn-sample.disabled:focus, 
+  .btn-sample[disabled]:focus, 
+  fieldset[disabled] .btn-sample:focus, 
+  .btn-sample.disabled:active, 
+  .btn-sample[disabled]:active, 
+  fieldset[disabled] .btn-sample:active, 
+  .btn-sample.disabled.active, 
+  .btn-sample[disabled].active, 
+  fieldset[disabled] .btn-sample.active { 
+    background-color: #010003; 
+    border-color: #DDD6FF; 
+  } 
+   
+  .btn-sample .badge { 
+    color: #010003; 
+    background-color: #ffffff; 
+  }
+
+
   
+.btn-sample-1 { 
+    color: #070707; 
+    background-color: #ffffff; 
+    border-color: rgb(2, 2, 2); 
+    } 
+    .btn-sample-1:hover, 
+    .btn-sample-1:focus, 
+    .btn-sample-1:active, 
+    .btn-sample-1.active, 
+    .open .dropdown-toggle.btn-sample-1 { 
+    color: #ffffff; 
+    background-color: #000000;
+    } 
+    
+    .btn-sample-1:active, 
+    .btn-sample-1.active, 
+    .open .dropdown-toggle.btn-sample-1 { 
+    background-image: none; 
+    } 
+    .btn-sample-1.disabled, 
+    .btn-sample-1[disabled], 
+    fieldset[disabled] .btn-sample-1, 
+    .btn-sample-1.disabled:hover, 
+    .btn-sample-1[disabled]:hover, 
+    fieldset[disabled] .btn-sample-1:hover, 
+    .btn-sample-1.disabled:focus, 
+    .btn-sample-1[disabled]:focus, 
+    fieldset[disabled] .btn-sample-1:focus, 
+    .btn-sample-1.disabled:active, 
+    .btn-sample-1[disabled]:active, 
+    fieldset[disabled] .btn-sample-1:active, 
+    .btn-sample-1.disabled.active, 
+    .btn-sample-1[disabled].active, 
+    fieldset[disabled] .btn-sample-1.active { 
+    background-color: #010003; 
+    border-color: #DDD6FF; 
+    } 
+    .btn-sample-1 .badge { 
+    color: #010003; 
+    background-color: #ffffff; 
+    }
+    
+    

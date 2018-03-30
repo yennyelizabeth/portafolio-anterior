@@ -15,8 +15,8 @@
     padding-bottom: 200px;      
   }
 
-  #resum, #works , #contact , #contacto {
-    padding-top: 100px;
+  #resum, #works , #contact , #contacto, #habilidades {
+   padding-top: 65px;
     padding-bottom: 80px;
     text-align: justify;
   }
