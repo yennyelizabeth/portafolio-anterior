@@ -1,3 +1,17 @@
+.grad {
+    -webkit-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
+  -ms-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
+  -moz-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
+  -o-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
+  background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95)); 
+ color: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
+ height:5px;
+}
+.gris-color {
+ background-color: rgba(221, 214, 255, 0.404);
+ }
+
+
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
