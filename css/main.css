@@ -1,12 +1,46 @@
-.grad {
+.grad-3 {
     -webkit-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   -ms-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   -moz-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   -o-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95)); 
  color: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
- height:5px;
+ height:4px;
 }
+
+.grad {
+  background-color: #d8a8a8a2;
+  height:2px;
+}
+.letter-comentary {
+  color: rgb(99, 96, 96);
+}
+
+.grad-1 {
+  -webkit-background: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26));
+  -ms-background: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26));
+  -moz-background: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26));
+  -o-background: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26));
+  background: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26)); 
+ color: linear-gradient(rgba(231, 77, 60, 0.26), rgba(231, 77, 60, 0.26));
+ height:5px;
+
+}
+
+#contact {
+  height:500px;
+  padding-bottom: 50px;
+  
+} 
+
+.letter-contacto {
+  color: black;
+}
+
+.grad-2{
+ background-color: rgba(17, 96, 243, 0.062);
+}
+
 .gris-color {
  background-color: rgba(221, 214, 255, 0.404);
  }

@@ -47,6 +47,14 @@
   height:670px;
 } 
 
+ #contact {
+    height:800px;
+    padding-bottom: 50px;
+    background-color: black;
+} 
+
+
+
 
 /* backgrounds de secciones 
 #section0 {padding-top:50px;height:600px;color: #fff; background-color: rgba(214, 221, 228, 0.795);}
