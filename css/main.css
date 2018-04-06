@@ -47,6 +47,19 @@
   color: black;
 }
 
+.bg-header {
+  background-image: url("../assets/images/portada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center center center;
+  width: 100%;
+  height: 500px;
+  padding-top: 0px;
+}
+.overlay {
+  background: none;
+ /* padding: 5rem 0;*/
+}
 
 
 .grad-5 {
