@@ -11,13 +11,10 @@
 
   #presentation {
     width: 100%;
+    height: 100%;
     padding-top: 0px;
-    padding-bottom: 2%;      
+    padding-bottom:0px;      
   }
-
-
-
-
 
 .back-1{
   background-color: white;
@@ -67,8 +64,10 @@ background-color: black;
   background: white;
 }
 
+#presentation
+
   #resum, #works , #contact , #contacto, #habilidades {
-   padding-top: 65px;
+   padding-top: 100px;
     padding-bottom: 80px;
     text-align: justify;
   }

@@ -8,17 +8,12 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }*/
-
-
-  .navbar-nav.navbar-center {
+.navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
 }
   
-
-
-
 /* estilos de texto */
 .text-white {
   color:white;
