@@ -57,12 +57,24 @@ background-color: black;
  color: black;
 }
 
+/*
+
+.thumbnail { 
+  border:0; 
+  background:-webkit-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(231, 77, 60, 0.26));
+  -ms-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(231, 77, 60, 0.26));
+  -moz-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(231, 77, 60, 0.26));
+  -o-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(60, 212, 149, 0.911));
+  background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(60, 212, 149, 0.911)); 
+ color: linear-gradient(rgba(145, 185, 223, 0.911), rgba(145, 185, 223, 0.911));;
+}*/
 
 
 .thumbnail { 
   border:0; 
-  background: white;
+  background:rgba(227, 231, 235, 0.911);
 }
+
 
 #presentation
 

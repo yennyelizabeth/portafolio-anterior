@@ -44,7 +44,7 @@
 }
 
 .letter-contacto {
-  color: black;
+  color: white;
 }
 
 * {
@@ -67,7 +67,10 @@
 }
 
 
-
+.class-ajuste {
+  padding-left: 0px;
+  padding-right: 0px;
+}
 
 .grad-5 {
   -webkit-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(231, 77, 60, 0.26));
