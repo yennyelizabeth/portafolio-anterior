@@ -11,9 +11,48 @@
 
   #presentation {
     width: 100%;
-    padding-top: 250px;
-    padding-bottom: 200px;      
+    padding-top: 50px;
+    padding-bottom: 55%;      
   }
+
+.back-1{
+  background-color: white;
+  border: white;
+}
+
+/*<img src="assets/images/0.jpg" class=" grad-5 img img-responsive" alt=""  style="width:90%">  <img src="assets/images/0.jpg" class=" grad-5 img img-responsive" alt=""  style="width:90%"> */
+
+.back-img {
+width: 100px;
+height: 100px;
+  background-image: url('assets/images/1.jpg');
+}
+
+.back-11 {
+  background-color: rgba(238, 99, 180, 0.863);
+  border: 1px, rgba(238, 99, 180, 0.863);
+
+}
+
+.back-12 {
+  background-color: rgba(179, 170, 170, 0.63);
+  border: 1px, rgba(179, 170, 170, 0.63);
+
+}
+.img-redsocial {
+  width : 10%;
+}
+
+.letter-content-proyect {
+ color: black;
+}
+
+
+
+.thumbnail { 
+  border:0; 
+  background: none;
+}
 
   #resum, #works , #contact , #contacto, #habilidades {
    padding-top: 65px;
@@ -71,7 +110,7 @@ a.current {
 
 @media (max-width: 375px){
   h1 {font-size: 3rem;}
-  }
+
 
 @media (max-width: 425px){
   h1 {font-size: 5rem;}
