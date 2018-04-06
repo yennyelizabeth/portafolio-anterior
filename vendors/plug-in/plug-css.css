@@ -39,6 +39,15 @@ height: 100px;
   border: 1px, rgba(179, 170, 170, 0.63);
 
 }
+
+.back-contact {
+background-color: black;
+}
+
+.back-whiter {
+  background-color: #FFF;
+}
+
 .img-redsocial {
   width : 10%;
 }
@@ -51,7 +60,7 @@ height: 100px;
 
 .thumbnail { 
   border:0; 
-  background: none;
+  background: white;
 }
 
   #resum, #works , #contact , #contacto, #habilidades {
