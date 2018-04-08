@@ -5,12 +5,22 @@
   -o-background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
   background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95)); 
  color: linear-gradient(rgba(231, 76, 60, 0.95), rgba(255, 51, 102, 0.95));
- height:4px;
+ height:3px;
+}
+
+.grad-31 {
+  -webkit-background: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
+-ms-background: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
+-moz-background: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
+-o-background: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
+background: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95)); 
+color: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
+height:3px;
 }
 
 .grad {
   background-color: #d8a8a8a2;
-  height:2px;
+  height:2.5px;
 }
 .letter-comentary {
   color: rgb(99, 96, 96);
@@ -87,6 +97,11 @@
 
 .back-out-1 {
   background-color: white;
+  border-radius: 15px;
+}
+
+.letter-black {
+  color: black important!;
 }
 
 .grad-5 {
@@ -96,6 +111,7 @@
   -o-background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(60, 212, 149, 0.911));
   background: linear-gradient(rgba(145, 185, 223, 0.911), rgba(60, 212, 149, 0.911)); 
  color: linear-gradient(rgba(145, 185, 223, 0.911), rgba(145, 185, 223, 0.911));
+
 
 }
 .grad-51 {
@@ -109,6 +125,7 @@
   -o-background: linear-gradient(rgba(209, 71, 124, 0.911), rgba(209, 71, 124, 0.911));
   background: linear-gradient(rgba(209, 71, 124, 0.911), rgba(209, 71, 124, 0.911)); 
  color: linear-gradient(rgba(209, 71, 124, 0.911), rgba(209, 71, 124, 0.911));
+ height: 0.5rem;
 }
 
 .grad-6 {
