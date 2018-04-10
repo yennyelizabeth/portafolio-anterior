@@ -18,7 +18,13 @@ color: linear-gradient(rgba(255, 51, 102, 0.95), rgba(255, 51, 102, 0.95));
 height:3px;
 }
 
+
 .grad {
+  background-color: rgba(0, 0, 0, 0.452);
+  height:2px;
+}
+
+.grad-x {
   background-color: #d8a8a8a2;
   height:2.5px;
 }
@@ -61,17 +67,24 @@ height:3px;
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: 'raleway', sans-serif; 
+  font-family: 'roboto', sans-serif; 
+  color: #020202e5;
+  font-size: 1.5rem;
+  font-weight: 350;
 }
 . back-white1{
   background-color: #fffffff;
 }
 
 
-.back-body {
-  font-family: 'Raleway', sans-serif;
+body {
+  font-family: 'Raleway';
+    font-family: 'Roboto';
 }
-
+p {
+  
+  
+}
 
 div {
   padding-bottom: 0px;

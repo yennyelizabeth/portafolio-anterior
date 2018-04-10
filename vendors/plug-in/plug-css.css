@@ -93,6 +93,7 @@ background-color: black;
 
 .text-align-center {
   text-align: center;
+  font-size: 2rem!;
 }
 
   /* Sección Inicio */
@@ -139,13 +140,22 @@ a.current {
 
 
 @media (max-width: 375px){
-  h1 {font-size: 3rem;}
+  h1 {font-size: 1rem;}
+  .media-view {
+    margin-top: 10%;
+    padding-top: 35%;
+    padding-bottom: 35%;
+  }
 
 
 @media (max-width: 425px){
-  h1 {font-size: 5rem;}
+  h1 {font-size: 3rem;}
 }
 
 @media (min-width:768px){
-  h1 {font-size: 8rem;}
+  h1 {font-size: 6rem;}
+}
+
+@media (min-width:1200px){
+  h1 {font-size: 9rem;}
 }
